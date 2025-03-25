@@ -6,7 +6,7 @@ const Portfolio = () => {
   const links = [
     { id: 1, icon: <FaLinkedin />, title: "LinkedIn", url: "https://www.linkedin.com/in/jezreel-ortiz/" },
     { id: 2, icon: <SiGoogledrive />, title: "Google Drive", url: "https://drive.google.com/drive/folders/yourdrive" },
-    { id: 3, icon: <FaGithub />, title: "GitHub", url: "https://github.com/yourprofile" },
+    { id: 3, icon: <FaGithub />, title: "GitHub", url: "https://github.com/jezcode2023/jez-code" },
     { id: 4, icon: <SiFigma />, title: "Figma", url: "https://www.figma.com/yourprofile" },
   ];
 

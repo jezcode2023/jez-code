@@ -29,18 +29,8 @@ function Home() {
             duration={700} // Duration of scroll in ms
             spy={true} // Highlights the link when in the viewport
             offset={-70} // Offset for positioning
-            className="h-16 cursor-pointer hover:scale-105 duration-500"
           >
-            
-          </ScrollLink>
-          <ScrollLink
-            to="contact" // Section to scroll to
-            smooth={true} // Smooth scroll animation
-            duration={700} // Duration of scroll in ms
-            spy={true} // Highlights the link when in the viewport
-            offset={-70} // Offset for positioning
-          >
-            <button className="group text-black font-bold w-fit px-6 py-3 my-2 flex items-center rounded-md bg-cream cursor-pointer">
+            <button className="group bg-gray text-black font-bold w-fit px-6 py-3 my-2 flex items-center rounded-md border border-white hover:bg-gray-500 transition duration-300">
               Contact
               <span className="group-hover:rotate-90 duration-300">
                 <IoMdArrowDropright size={20} className="ml-3" />

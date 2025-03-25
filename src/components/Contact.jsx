@@ -6,9 +6,8 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    window.location.href = `mailto:jezreelortiz2020@gmail.com?subject=${encodeURIComponent(
-      subject
-    )}&body=${encodeURIComponent(message)}`;
+    const mailtoLink = `mailto:jezreelortiz2020@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
+    window.location.href = mailtoLink;
   };
 
   return (
@@ -42,7 +41,7 @@ const Contact = () => {
             type="submit"
             className="w-full bg-white text-black font-bold py-3 rounded-md border border-gray-400 hover:bg-gray-200 transition duration-300"
           >
-            Send Message
+            Send Email
           </button>
         </form>
       </div>

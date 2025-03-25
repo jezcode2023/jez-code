@@ -26,7 +26,7 @@ const Experience = () => {
   ];
 
   return (
-    <div name="experience" className="w-full bg-gray text-black py-10 overflow-hidden">
+    <div name="experience" className="h-full w-full bg-gray text-black py-10 overflow-hidden">
       <div className="text-center">
         <p className="text-3xl font-bold border-b-2 border-gray-500 inline-block">Experience</p>
         <p className="mt-5 text-xl">These are the toolkits I've worked with:</p>
