@@ -22,6 +22,11 @@ const Footer = () => {
             </ScrollLink>
           </li>
           <li>
+            <ScrollLink to="experience" smooth duration={700} spy={true} offset={-70} className="cursor-pointer hover:text-gray-400 transition">
+              Experience
+            </ScrollLink>
+          </li>
+          <li>
             <ScrollLink to="portfolio" smooth duration={700} spy={true} offset={-70} className="cursor-pointer hover:text-gray-400 transition">
               Portfolio
             </ScrollLink>
