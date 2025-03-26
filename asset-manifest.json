@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/jez-code/static/css/main.fddd906e.css",
-    "main.js": "/jez-code/static/js/main.48977e9d.js",
+    "main.js": "/jez-code/static/js/main.717ed7a1.js",
     "static/media/ortz.jpg": "/jez-code/static/media/ortz.b50d806e6ddf8e31332f.jpg",
     "static/media/logo11.png": "/jez-code/static/media/logo11.c9f759789f337f0a7d65.png",
     "index.html": "/jez-code/index.html",
     "main.fddd906e.css.map": "/jez-code/static/css/main.fddd906e.css.map",
-    "main.48977e9d.js.map": "/jez-code/static/js/main.48977e9d.js.map"
+    "main.717ed7a1.js.map": "/jez-code/static/js/main.717ed7a1.js.map"
   },
   "entrypoints": [
     "static/css/main.fddd906e.css",
-    "static/js/main.48977e9d.js"
+    "static/js/main.717ed7a1.js"
   ]
 }
